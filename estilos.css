@@ -244,3 +244,15 @@ nav a {
     justify-content: center;
     gap: 10px;
  }
+.textS {
+    background: rgba(35, 24, 17, 0.75);
+    padding: 20px;
+    color: #F5E8D0;
+}
+
+.textS h2 {
+    color: #9d7b48;
+ }
+textS p{
+     color:S#9d7b48;
+}
