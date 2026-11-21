@@ -88,7 +88,8 @@ h2 {
 }
 
 .album p {
-    margin: 8px 0
+    margin: 8px 0;
+    text-align: left;
 }
 
 .foto {
@@ -149,10 +150,11 @@ h2 {
     font-size: 23px
 }
 
-.preco {
+p.preco {
     color: #832b46;
     font-size: 20px;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
 }
 
 table {
@@ -233,12 +235,11 @@ nav a {
 .logospotify {
     width: 24px;
     height: 24px;
-    transition: 0, 3;
+    transition: 0.5s;
 }
 
-.logospotify :hover {
-    scale: 1, 15;
-    color: #35242a;
+.logospotify:hover {
+    scale: 1.3;
 }
 
 div.tituloalbum {
@@ -253,6 +254,7 @@ div.tituloalbum {
     padding: 20px;
     color: #F5E8D0;
     border-radius: 10px;
+    text-align: center;
 }
 
 .textS h2 {
