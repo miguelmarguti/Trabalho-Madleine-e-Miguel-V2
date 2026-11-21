@@ -252,7 +252,7 @@ div.tituloalbum {
 .textS {
     background: rgba(35, 24, 17, 0.75);
     padding: 20px;
-    color: #F5E8D0;
+    color: #35242a;
     border-radius: 10px;
     text-align: center;
 }
@@ -279,5 +279,4 @@ header h1 {
 }
 .disquinho:hover {
     transform: rotate(360deg);
-    
 }
