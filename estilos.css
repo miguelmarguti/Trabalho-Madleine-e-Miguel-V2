@@ -24,14 +24,17 @@ h1 {
 
 nav a {
     display: inline-block;
-    background: #743147;
+    background: #872025;
     color: #fff5e9;
     padding: 10px 20px;
     margin: 5px;
     text-decoration: none;
     border: 1px solid #dd8c6a;
     border-radius: 8px;
-    transition: all 0.5s
+    transition: all 0.5s;
+    position: relative;
+    bottom: 50px;
+    left: 500px;
 }
 
 nav a:hover {
@@ -40,11 +43,12 @@ nav a:hover {
 }
 
 .conteudo {
-    
+
     margin: 15px auto;
     padding: 15px;
     text-align: center
 }
+
 /*mudar cor do h2*/
 h2 {
     color: #a16f24;
@@ -60,17 +64,19 @@ h2 {
     border: 1px solid #c9a895;
     border-radius: 8px;
 }
- /* tem que aumentar os cartoes que ta mto pequeno*/
+
 .discos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+
 }
 
 .album {
     background: #fff9f1;
     border: 2px solid #c8a696;
-    width: 220px;
+    width: 260px;
     padding: 12px;
     margin: 10px;
     border-radius: 14px;
@@ -122,11 +128,12 @@ h2 {
 }
 
 .destaques .album {
-    width: 285px;
+    width: 300px;
     background: #fff6e9;
     border: 2px solid #8b4a59;
     padding: 18px;
-    border-radius: 18px
+    border-radius: 18px;
+    padding: 18px;
 }
 
 .destaques .foto {
@@ -187,13 +194,6 @@ tr:nth-child(even) {
     line-height: 1.6
 }
 
-.diferencial {
-    background: #fff9f1;
-    border-left: 5px solid #803a50;
-    padding: 12px;
-    margin: 15px 0
-}
-
 .voltar {
     display: inline-block;
     background: #67263c;
@@ -229,30 +229,53 @@ nav a {
 .destaques h3 {
     font-size: 26px
 }
+
 .logospotify {
     width: 24px;
     height: 24px;
-    transition: 0,3;
+    transition: 0, 3;
 }
+
 .logospotify :hover {
-    scale: 1,15;
+    scale: 1, 15;
     color: #35242a;
- }
- div.tituloalbum {
-     display: flex;
-     align-items: center;
+}
+
+div.tituloalbum {
+    display: flex;
+    align-items: center;
     justify-content: center;
     gap: 10px;
- }
+}
+
 .textS {
     background: rgba(35, 24, 17, 0.75);
     padding: 20px;
     color: #F5E8D0;
+    border-radius: 10px;
 }
 
 .textS h2 {
     color: #a16f24;
- }
-textS p{
-     color:S#9d7b48;
+}
+
+.textS p {
+    color: #9d7b48;
+}
+
+header h1 {
+    position: relative;
+    top: 13px;
+    right: 550px;
+}
+
+.disquinho {
+    position: absolute;
+    top: 25px;
+    left: 370px;
+    transition: 1s;
+}
+.disquinho:hover {
+    transform: rotate(360deg);
+    
 }
