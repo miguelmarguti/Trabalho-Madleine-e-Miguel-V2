@@ -259,6 +259,7 @@ div.tituloalbum {
 
 .textS h2 {
     color: #a16f24;
+
 }
 
 .textS p {
@@ -277,6 +278,24 @@ header h1 {
     left: 370px;
     transition: 1s;
 }
+
 .disquinho:hover {
     transform: rotate(360deg);
+}
+
+/*organizando a parte quem somos do sobre nós*/
+.sobre-intro {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.sobre-intro img {
+    width: 150px;
+    height: auto;
+}
+.sobre-intro img {
+    width: 220px;
+    height: auto;
 }
